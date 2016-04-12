@@ -1,0 +1,29 @@
+
+      h1 {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        font-size: 6em;
+        font-family: Roboto;
+        transition: all 0.5s;
+      }
+
+      @media screen and (min-width: 600px)
+	  {
+        body {
+			background: blue;
+		}
+      }
+	 
+	 @media screen and (min-width: 401px) and (max-width: 599) {
+		body {
+			background: green;
+		}
+      }
+	  
+	  @media screen and (max-width: 400px){
+        body {
+			background: red;
+		}
+      }
+    
